@@ -1,7 +1,7 @@
 ## This pair of functions allow user to create a special matrix and compute
 ## its inverse. If the inverse has been previously computed and the matrix has
-## not been changed the old inverse is returned, otherwise it is computed from
-## scratch.
+## not been changed ever since, the old inverse is returned, otherwise it is 
+## computed from scratch.
 
 ## The first function creates the special matrix, i.e. a list of 4 elements
 ## each of which is a function:
