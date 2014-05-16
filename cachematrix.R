@@ -1,4 +1,4 @@
-## This pair of functions allow user to create a special matrix and compute
+## This pair of functions allow a user to create a special matrix and compute
 ## its inverse. If the inverse has been previously computed and the matrix has
 ## not been changed ever since, the old inverse is returned, otherwise it is 
 ## computed from scratch.
