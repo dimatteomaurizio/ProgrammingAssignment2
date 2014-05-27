@@ -20,7 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
     x <<- y
     # since the matrix is changing we need to reset its inverse
     # (i.e. the old one is no longer valid):
-    inv <- NULL 
+    inv <<- NULL 
   }
   
   # Simply return the matrix:
